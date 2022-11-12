@@ -1,0 +1,37 @@
+body{
+  background-color: #F2F2F2;
+}
+
+section .grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  margin: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.card {
+  border: 1px solid white;
+  background-color: white;
+  margin: ;
+
+}
